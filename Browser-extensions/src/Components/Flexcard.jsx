@@ -5,7 +5,7 @@ function Flexcard(props) {
   return (
     <div className="bg-neutral-500 px-10 py-10 w-80 rounded-2xl flex flex-col">
       <div className="flex flex-row">
-        <img src="./../../assets/images/logo-dom-snapshot.svg" alt="" />
+        <img src={props.images} alt="no image present" />
         <div className="pl-5">
           <h1 className="text-white">{props.heading}</h1>
           <p className="text-white">{props.text}</p>

@@ -7,6 +7,7 @@ function Flexcard_Container() {
   const listItems = array.map((item) => (
     <Flexcard
       className=" col-span-1"
+      images={item.logo}
       heading={item.name}
       text={item.description}
     />
