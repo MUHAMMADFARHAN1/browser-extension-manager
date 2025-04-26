@@ -8,6 +8,7 @@
 
 /* we can give name to root element as well such as div, */
 /* linear gradient ahs custom working i tailwind as well */
+/* It is not recommedeed to change the index.html file */
 #root {
   width: auto;
   height: 100vh;
