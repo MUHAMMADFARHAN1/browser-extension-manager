@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 
-function Navbar() {
-  return (
-    <div>
-      
-    </div>
-  )
+function Flexcard_Container() {
+  return <div className="grid grid-cols-3">
+    
+  </div>;
 }
 
-export default Navbar
+export default Flexcard_Container;

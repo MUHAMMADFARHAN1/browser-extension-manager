@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Flex from "./Components/Flexbox_main_Heading";
+import Flexcard from "./Components/Flexcard";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="px-12 pt-10">
       <Flex />
+      <Flexcard />
     </div>
   );
 }
