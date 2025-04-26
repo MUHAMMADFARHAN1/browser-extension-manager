@@ -3,7 +3,7 @@ import Flexcard from "./Flexcard";
 import array from "../../../data";
 // 1.Javascript arraz or 2.json server needs to be created here or 3. simplz copy everzthing
 
-let check = 2;
+let check = 0;
 let render;
 
 function Flexcard_Container() {
