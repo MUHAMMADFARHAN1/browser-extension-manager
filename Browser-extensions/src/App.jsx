@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="px-12 pt-10">
+    <div className="px-12 pt-10 pb-10">
       <Flex />
       <Flexcard_Container />
     </div>

@@ -11,7 +11,8 @@
 /* It is not recommedeed to change the index.html file */
 #root {
   width: auto;
-  height: 100vh;
+  /* height: 100vh; */
+  height: fit-content;
   background-color: black;
   background-image: linear-gradient(180deg, #040918 0%, #091540 100%);
 }
