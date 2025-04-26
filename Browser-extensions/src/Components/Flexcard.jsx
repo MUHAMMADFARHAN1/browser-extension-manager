@@ -2,6 +2,7 @@ import React from "react";
 import { Switch } from "@material-tailwind/react";
 
 function Flexcard(props) {
+  let active = props.active;
   return (
     <div className="bg-neutral-500 px-10 py-10 w-80 rounded-2xl flex flex-col">
       <div className="flex flex-row">
